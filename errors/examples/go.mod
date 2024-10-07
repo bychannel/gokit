@@ -1,4 +1,4 @@
-module github.com/jianghushinian/gokit/errors/examples
+module github.com/bychannel/gokit/errors/examples
 
 go 1.20
 

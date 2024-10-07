@@ -1,4 +1,4 @@
-module github.com/jianghushinian/gokit
+module github.com/bychannel/gokit
 
 go 1.20
 

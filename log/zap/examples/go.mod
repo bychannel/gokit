@@ -1,4 +1,4 @@
-module github.com/jianghushinian/gokit/log/zap/examples
+module github.com/bychannel/gokit/log/zap/examples
 
 go 1.20
 
