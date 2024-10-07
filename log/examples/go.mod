@@ -1,10 +1,10 @@
 module github.com/bychannel/gokit/log/zap/examples
 
-go 1.20
+go 1.22.5
 
 require (
+	github.com/bychannel/gokit v0.1.1
 	github.com/gin-gonic/gin v1.9.0
-	github.com/bychannel/gokit v0.1.0
 	go.uber.org/zap v1.24.0
 )
 

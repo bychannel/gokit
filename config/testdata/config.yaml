@@ -1,0 +1,4 @@
+username: user
+password: pass
+server:
+  endpoint: www.baidu.com

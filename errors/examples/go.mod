@@ -1,10 +1,10 @@
 module github.com/bychannel/gokit/errors/examples
 
-go 1.20
+go 1.22.5
 
 require (
+	github.com/bychannel/gokit v0.1.1
 	github.com/gin-gonic/gin v1.9.0
-	github.com/bychannel/gokit v0.1.0
 )
 
 require (
