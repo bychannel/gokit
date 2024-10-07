@@ -35,7 +35,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/jianghushinian/gokit/config/config"
+	"github.com/bychannel/gokit/config/config"
 )
 
 type Config struct {
@@ -84,7 +84,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/jianghushinian/gokit/config/config"
+	"github.com/bychannel/gokit/config/config"
 )
 
 type Config struct {

@@ -63,7 +63,7 @@ func Test_apiCode_Code(t *testing.T) {
 			fields: fields{
 				code: 40100000,
 				msg:  "认证失败",
-				ref:  "https://github.com/jianghushinian/gokit/blob/main/README.md",
+				ref:  "https://github.com/bychannel/gokit/blob/main/README.md",
 			},
 			want: 40100000,
 		},
@@ -106,7 +106,7 @@ func Test_apiCode_Message(t *testing.T) {
 			fields: fields{
 				code: 40100000,
 				msg:  "认证失败",
-				ref:  "https://github.com/jianghushinian/gokit/blob/main/README.md",
+				ref:  "https://github.com/bychannel/gokit/blob/main/README.md",
 			},
 			want: "认证失败",
 		},
@@ -149,9 +149,9 @@ func Test_apiCode_Reference(t *testing.T) {
 			fields: fields{
 				code: 40100000,
 				msg:  "认证失败",
-				ref:  "https://github.com/jianghushinian/gokit/blob/main/README.md",
+				ref:  "https://github.com/bychannel/gokit/blob/main/README.md",
 			},
-			want: "https://github.com/jianghushinian/gokit/blob/main/README.md",
+			want: "https://github.com/bychannel/gokit/blob/main/README.md",
 		},
 		{
 			name: "50000000",
@@ -192,7 +192,7 @@ func Test_apiCode_HTTPStatus(t *testing.T) {
 			fields: fields{
 				code: 40100000,
 				msg:  "认证失败",
-				ref:  "https://github.com/jianghushinian/gokit/blob/main/README.md",
+				ref:  "https://github.com/bychannel/gokit/blob/main/README.md",
 			},
 			want: 401,
 		},

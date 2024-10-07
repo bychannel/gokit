@@ -7,7 +7,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	apierr "github.com/jianghushinian/gokit/errors"
+	apierr "github.com/bychannel/gokit/errors"
 )
 
 var (

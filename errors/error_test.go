@@ -288,10 +288,10 @@ func Test_apiError_MarshalJSON(t *testing.T) {
 				coder: NewAPICode(
 					CodeBadRequest.Code(),
 					CodeBadRequest.Message(),
-					"https://github.com/jianghushinian/gokit/blob/main/README.md",
+					"https://github.com/bychannel/gokit/blob/main/README.md",
 				),
 			},
-			want:    []byte(`{"code":40000000,"message":"请求不合法","reference":"https://github.com/jianghushinian/gokit/blob/main/README.md"}`),
+			want:    []byte(`{"code":40000000,"message":"请求不合法","reference":"https://github.com/bychannel/gokit/blob/main/README.md"}`),
 			wantErr: false,
 		},
 	}
@@ -346,12 +346,12 @@ func Test_apiError_UnmarshalJSON(t *testing.T) {
 				coder: NewAPICode(
 					CodeBadRequest.Code(),
 					CodeBadRequest.Message(),
-					"https://github.com/jianghushinian/gokit/blob/main/README.md",
+					"https://github.com/bychannel/gokit/blob/main/README.md",
 				),
 				cause: errors.New("cause"),
 			},
 			args: args{
-				data: []byte(`{"code":40000000,"message":"请求不合法","reference":"https://github.com/jianghushinian/gokit/blob/main/README.md"}`),
+				data: []byte(`{"code":40000000,"message":"请求不合法","reference":"https://github.com/bychannel/gokit/blob/main/README.md"}`),
 			},
 			wantErr: false,
 		},

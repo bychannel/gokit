@@ -4,7 +4,7 @@ go 1.20
 
 require (
 	github.com/gin-gonic/gin v1.9.0
-	github.com/jianghushinian/gokit v0.0.0-20230319122503-b25da589e29d
+	github.com/bychannel/gokit v0.1.0
 	go.uber.org/zap v1.24.0
 )
 

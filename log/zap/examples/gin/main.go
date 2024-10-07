@@ -6,7 +6,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	log "github.com/jianghushinian/gokit/log/zap"
+	log "github.com/bychannel/gokit/log/zap"
 )
 
 func main() {

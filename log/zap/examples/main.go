@@ -9,7 +9,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	log "github.com/jianghushinian/gokit/log/zap"
+	log "github.com/bychannel/gokit/log/zap"
 )
 
 func main() {

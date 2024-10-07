@@ -12,7 +12,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	log "github.com/jianghushinian/gokit/log/zap"
+	log "github.com/bychannel/gokit/log/zap"
 )
 
 // LoggerMiddleware ref: https://github.com/gin-gonic/gin/blob/v1.9.0/logger.go#L182

@@ -26,7 +26,7 @@ import (
 	"os"
 	"time"
 
-	log "github.com/jianghushinian/gokit/log/zap"
+	log "github.com/bychannel/gokit/log/zap"
 )
 
 func main() {
@@ -80,7 +80,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	log "github.com/jianghushinian/gokit/log/zap"
+	log "github.com/bychannel/gokit/log/zap"
 )
 
 func main() {
@@ -142,7 +142,7 @@ package main
 import (
 	"os"
 
-	log "github.com/jianghushinian/gokit/log/zap"
+	log "github.com/bychannel/gokit/log/zap"
 )
 
 func main() {
@@ -190,7 +190,7 @@ func main() {
 package main
 
 import (
-	log "github.com/jianghushinian/gokit/log/zap"
+	log "github.com/bychannel/gokit/log/zap"
 )
 
 func main() {
